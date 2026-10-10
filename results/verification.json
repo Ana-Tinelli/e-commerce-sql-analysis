@@ -1,0 +1,53 @@
+{
+  "database_source": "Previously supplied 20054375_parana_python_working(2).db",
+  "source_opened_read_only": true,
+  "integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_violations": [],
+  "query_row_counts": {
+    "01_shopper_selection": 12,
+    "02_order_history": 10,
+    "03_seller_product_summary": 46,
+    "04_product_category_comparison": 9
+  },
+  "documented_examples": {
+    "shopper_10000_distinct_orders": 6,
+    "shopper_10000_order_items": 10,
+    "seller_product_aggregate": [
+      2,
+      5,
+      1233.98
+    ],
+    "AU430303_non_cancelled_average": 3.6
+  },
+  "review_constraint_checks": {
+    "product_reviews_rating_out_of_range": "rejected as expected",
+    "product_reviews_non_integer": "rejected as expected",
+    "product_reviews_blank_comment": "rejected as expected",
+    "product_reviews_long_comment": "rejected as expected",
+    "product_reviews_invalid_leap_day": "rejected as expected",
+    "product_reviews_invalid_hour": "rejected as expected",
+    "product_reviews_null_rating": "rejected as expected",
+    "product_reviews_invalid_shopper": "rejected as expected",
+    "product_reviews_duplicate_submission": "rejected as expected",
+    "seller_reviews_rating_out_of_range": "rejected as expected",
+    "seller_reviews_non_integer": "rejected as expected",
+    "seller_reviews_blank_comment": "rejected as expected",
+    "seller_reviews_long_comment": "rejected as expected",
+    "seller_reviews_invalid_leap_day": "rejected as expected",
+    "seller_reviews_invalid_hour": "rejected as expected",
+    "seller_reviews_null_rating": "rejected as expected",
+    "seller_reviews_invalid_shopper": "rejected as expected",
+    "seller_reviews_duplicate_submission": "rejected as expected"
+  },
+  "python": {
+    "syntax_valid": true,
+    "successful_checkout_verified": true,
+    "forced_failure_rolls_back_order_and_preserves_basket": true,
+    "scope": "Function-level checks; full interactive menu not exhaustively tested."
+  },
+  "source_snapshot_has_review_tables": false
+}
