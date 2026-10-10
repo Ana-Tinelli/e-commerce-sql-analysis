@@ -112,7 +112,7 @@ py 20054375_parana_python.py
 
 Use a copy of the database for testing, because basket and checkout operations modify its contents.
 
-The filename has been confirmed against the application configuration. The database currently in this repository has not yet been inspected as part of the portfolio review.
+The database filename matches the application configuration. The repository database passed SQLite integrity and foreign-key checks and was used to generate the published aggregate CSV results.
 
 ## Limitations
 
