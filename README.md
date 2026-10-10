@@ -64,12 +64,31 @@ I developed the SQL queries, review-table design and Python application as part 
 
 For this portfolio, the two assessments are presented together to show how analytical queries, data integrity and application logic relate to each other.
 
-## Repository status
+## Assessment structure
 
-The original Python assessment code and its commit history are retained.
+### Assessment 1 — SQL analysis
 
-SQL files, selected aggregate results and supporting documentation will be added progressively. Runtime setup instructions will be finalised after checking the database filename and the contents of the existing database file.
+Four queries cover shopper selection, order history, seller-product summaries and product/category comparisons.
 
+The aggregate CSV results were generated from the database included in this repository, containing 59 orders and 78 ordered-product records.
+
+### Assessment 2 — Database integrity and Python application
+
+The review-table definitions are provided separately in `queries/05_review_tables.sql`. They were validated in an isolated database copy and are not present in the included application database.
+
+The Python application implements persistent shopping baskets and checkout operations using the existing database tables.
+
+## Repository contents
+
+- `queries/`: four analysis queries and the review-table definitions.
+- `results/`: two aggregate CSV outputs and a database verification record.
+- `docs/ASSESSMENT_STRUCTURE.md`: assessment scope, database provenance and interpretation notes.
+- `20054375_parana_python.py`: original Python application.
+- `20054375_parana_python_working.db`: application database and reference for the published aggregate results.
+
+The original application commit history is retained.
+
+See [assessment structure and database provenance](docs/ASSESSMENT_STRUCTURE.md) for further details.
 ## Running the Python application
 
 Python 3 is required. The application uses the built-in sqlite3 module; no additional packages are needed.
@@ -99,7 +118,8 @@ The filename has been confirmed against the application configuration. The datab
 
 - The project uses an academic e-commerce scenario.
 - Validation used the available base database, with review tables created separately for testing.
-- Reproducing the analysis requires a compatible database.
+- The aggregate CSV outputs represent the included database before further application operations; basket and checkout activity can change subsequent query results.
+- Query 01 calculates ages using the current date, so these can differ from historical assessment screenshots.
 - Publication of the complete assessment dataset remains subject to a redistribution review.
 
 ## AI assistance
