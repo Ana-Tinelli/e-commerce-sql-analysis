@@ -32,7 +32,7 @@ Interpretation matters:
 
 ## Database integrity
 
-The database extension introduces product and seller reviews with validation rules for:
+The proposed database extension defines product and seller reviews with validation rules for:
 
 - Relationships with existing shoppers, products and sellers.
 - Integer ratings between 1 and 5.
