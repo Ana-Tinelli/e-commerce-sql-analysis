@@ -1,53 +1,26 @@
 {
-  "database_source": "Previously supplied 20054375_parana_python_working(2).db",
-  "source_opened_read_only": true,
-  "integrity": [
-    [
-      "ok"
-    ]
-  ],
+  "reference_database": "20054375_parana_python_working.db",
+  "sha256": "671dcd53872f210184e4612ee4d8b56d908b86c8735d3fc5297376725c39e4b1",
+  "table_counts": {
+    "shoppers": 20,
+    "shopper_orders": 59,
+    "sellers": 12,
+    "categories": 6,
+    "products": 18,
+    "product_sellers": 46,
+    "ordered_products": 78,
+    "shopper_baskets": 4,
+    "basket_contents": 2
+  },
+  "integrity_check": "ok",
   "foreign_key_violations": [],
-  "query_row_counts": {
-    "01_shopper_selection": 12,
-    "02_order_history": 10,
-    "03_seller_product_summary": 46,
-    "04_product_category_comparison": 9
+  "aggregate_exports": {
+    "03_seller_product_summary": {
+      "row_count": 46
+    },
+    "04_product_category_comparison": {
+      "row_count": 9
+    }
   },
-  "documented_examples": {
-    "shopper_10000_distinct_orders": 6,
-    "shopper_10000_order_items": 10,
-    "seller_product_aggregate": [
-      2,
-      5,
-      1233.98
-    ],
-    "AU430303_non_cancelled_average": 3.6
-  },
-  "review_constraint_checks": {
-    "product_reviews_rating_out_of_range": "rejected as expected",
-    "product_reviews_non_integer": "rejected as expected",
-    "product_reviews_blank_comment": "rejected as expected",
-    "product_reviews_long_comment": "rejected as expected",
-    "product_reviews_invalid_leap_day": "rejected as expected",
-    "product_reviews_invalid_hour": "rejected as expected",
-    "product_reviews_null_rating": "rejected as expected",
-    "product_reviews_invalid_shopper": "rejected as expected",
-    "product_reviews_duplicate_submission": "rejected as expected",
-    "seller_reviews_rating_out_of_range": "rejected as expected",
-    "seller_reviews_non_integer": "rejected as expected",
-    "seller_reviews_blank_comment": "rejected as expected",
-    "seller_reviews_long_comment": "rejected as expected",
-    "seller_reviews_invalid_leap_day": "rejected as expected",
-    "seller_reviews_invalid_hour": "rejected as expected",
-    "seller_reviews_null_rating": "rejected as expected",
-    "seller_reviews_invalid_shopper": "rejected as expected",
-    "seller_reviews_duplicate_submission": "rejected as expected"
-  },
-  "python": {
-    "syntax_valid": true,
-    "successful_checkout_verified": true,
-    "forced_failure_rolls_back_order_and_preserves_basket": true,
-    "scope": "Function-level checks; full interactive menu not exhaustively tested."
-  },
-  "source_snapshot_has_review_tables": false
+  "scope": "Read-only validation and aggregate exports against the GitHub database supplied on 2026-10-10. Review constraint and checkout checks previously used an isolated copy of another database version; they are not claimed as rerun here."
 }

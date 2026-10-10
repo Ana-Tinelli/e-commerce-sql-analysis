@@ -14,16 +14,16 @@ OUK00001,DigiTec Limited,TV30399302,Sony Bravia 32 inch HD TV Black,0,0,£0.00
 GAM00188,GameOn,GA13949494,Sony PlayStation 4 Pro 1TB White,0,0,£0.00
 FUS00171,Fusion,GA29002201,Nintendo Switch,0,0,£0.00
 INT00090,IntelliWorld,CO8920232,"ASUS VivoBook X420 Full HD 14 Inch Laptop (128 GB SSD, 4 GB RAM)",0,0,£0.00
+INT00090,IntelliWorld,GA29002201,Nintendo Switch,0,0,£0.00
 ORI00001,Parana UK,CA175555,"Panasonic Lumix Camera, 12.1 Megapixel, 24x Optical Zoom, Black",1,1,£331.66
 ORI00001,Parana UK,CO3930033,"Lenovo V145 15.6"" FHD Laptop AMD A9-9425, 8GB RAM, 256GB SSD, Black",1,1,£436.59
 ORI00001,Parana UK,GA84944050,Microsoft Xbox One 500GB Console - Black ,1,1,£279.99
 ELE00118,Electronics World,TV30399302,Sony Bravia 32 inch HD TV Black,1,1,£237.98
+BAR00028,Barracuda,AU353512,Sony Wireless Noise Cancelling Headphones,1,1,£46.89
+CCL00061,CCL,CA568333,Nikon Digital DSLR Camera Body (Black),1,1,£699.00
 ORI00001,Parana UK,CA568333,Nikon Digital DSLR Camera Body (Black),2,2,£1442.00
 ORI00001,Parana UK,GA13949494,Sony PlayStation 4 Pro 1TB White,2,2,£651.78
-BAR00028,Barracuda,AU353512,Sony Wireless Noise Cancelling Headphones,2,2,£93.78
 BAR00028,Barracuda,AU430303,"Supereye MP3 Player, 16G Portable Lossless Sound MP3 Player",2,2,£53.98
-INT00090,IntelliWorld,GA29002201,Nintendo Switch,1,2,£642.46
-CCL00061,CCL,CA568333,Nikon Digital DSLR Camera Body (Black),2,2,£1398.00
 ORI00001,Parana UK,MP56889550,Samsung Galaxy M30s SIM Free Smartphone,3,3,£732.00
 ORI00001,Parana UK,CO8920231,"ASUS VivoBook X320 Full HD 14 Inch Laptop (128 GB SSD, 2 GB RAM)",1,4,£1199.96
 ORI00001,Parana UK,TV30399302,Sony Bravia 32 inch HD TV Black,2,5,£1233.98
@@ -39,8 +39,8 @@ INT00090,IntelliWorld,CO6558555,Samsung Galaxy Tab A 10.1-Inch 32 GB Wi-Fi,2,10,
 ORI00001,Parana UK,CO6558555,Samsung Galaxy Tab A 10.1-Inch 32 GB Wi-Fi,4,11,£1869.89
 FUS00171,Fusion,GA33533688,Xbox One S 1TB Console - Minecraft Creators Bundle,2,14,£6373.78
 ORI00001,Parana UK,GA22020026,Numskull Multi-Format Pro Steering Wheel,5,15,£1049.85
+CCL00061,CCL,CA067443,Canon DSLR Camera (Black),3,15,£3630.00
 ORI00001,Parana UK,AU430303,"Supereye MP3 Player, 16G Portable Lossless Sound MP3 Player",3,16,£431.84
-CCL00061,CCL,CA067443,Canon DSLR Camera (Black),4,16,£3872.00
 ORI00001,Parana UK,GA29002201,Nintendo Switch,5,19,£6269.81
 ORI00001,Parana UK,CA067443,Canon DSLR Camera (Black),3,23,£5727.00
 OUK00001,DigiTec Limited,MP45322289,Huawei Y6 32GB 6.09 inch Smartphone,5,30,£3225.00
