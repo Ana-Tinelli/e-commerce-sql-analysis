@@ -70,6 +70,31 @@ The original Python assessment code and its commit history are retained.
 
 SQL files, selected aggregate results and supporting documentation will be added progressively. Runtime setup instructions will be finalised after checking the database filename and the contents of the existing database file.
 
+## Running the Python application
+
+Python 3 is required. The application uses the built-in sqlite3 module; no additional packages are needed.
+
+1. Download or clone this repository.
+2. Open a terminal in the repository folder.
+3. Keep these files together:
+   - `20054375_parana_python.py`
+   - `20054375_parana_python_working.db`
+4. Run:
+
+```bash
+python 20054375_parana_python.py
+```
+
+On Windows, you can also use:
+
+```powershell
+py 20054375_parana_python.py
+```
+
+Use a copy of the database for testing, because basket and checkout operations modify its contents.
+
+The filename has been confirmed against the application configuration. The database currently in this repository has not yet been inspected as part of the portfolio review.
+
 ## Limitations
 
 - The project uses an academic e-commerce scenario.
